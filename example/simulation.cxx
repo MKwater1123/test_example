@@ -80,7 +80,7 @@ void simulation() {
   //=======================
   // Material construction
   //=======================
-  Scintillator *materialFe = new Scintillator(0.0, 0.0, 100.0, 10.0, 20.0, 30.0);
+  Scintillator *materialFe = new Scintillator(0.0, 0.0, 100.0, 20.0, 30.0, 50.0);
   materialFe -> SetLineWidth(2);
   materialFe -> SetLineColor(1);
   materialFe -> Draw();
